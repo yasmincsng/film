@@ -1,81 +1,208 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My FILMS</title>
-    <link rel="stylesheet" href="style5.css">
-    <script src="https://kit.fontawesome.com/572eff73f2.js" crossorigin="anonymous"></script>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Cinephile Collection | My Favorite Films</title>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+   <link rel="stylesheet" href="style5.css">
 </head>
 <body>
-    <!-- Navigation Bar -->
-    <div class="navbar">
-       <ul>
-    <li><a href="https://yasmincsng.github.io/website/"><i class="fa-solid fa-house"></i> Home</a></li>
-    <li><a href="https://yasmincsng.github.io/bio/"><i class="fa-solid fa-user"></i> Biography</a></li>
-    <li><a href="https://yasmincsng.github.io/skills/"><i class="fa-solid fa-screwdriver-wrench"></i> Skills</a></li>
-    <li><a href="https://yasmincsng.github.io/resume/"><i class="fa-solid fa-file-lines"></i> Resume</a></li>
-    <li><a href="https://yasmincsng.github.io/beats/"><i class="fa-solid fa-music"></i> My Beats</a></li>
-    <li><a href="https://yasmincsng.github.io/film/"><i class="fa-solid fa-film" style="color: #000000;"></i> My Film</a></li>
-    <li><a href="https://yasmincsng.github.io/photo-dump/"><i class="fa-solid fa-images"></i> Photo Gallery</a></li>
-</ul>
+   <!-- Pink Navigation Sidebar -->
+   <nav class="navbar">
+       <div class="nav-header">
+           <h2><i class="fas fa-film logo-icon"></i> Cinephile Collection</h2>
+       </div>
+       <ul class="nav-links">
+           <li><a href="../landing page/index.html"><i class="fas fa-home"></i> <span>Home</span></a></li>
+           <li><a href="../bio/index.html"><i class="fas fa-user"></i> <span>Biography</span></a></li>
+           <li><a href="../skills/index.html"><i class="fas fa-tools"></i> <span>Skills</span></a></li>
+           <li><a href="../resume/index.html"><i class="fas fa-file-alt"></i> <span>Resume</span></a></li>
+           <li><a href="../beats/index.html"><i class="fas fa-music"></i> <span>My Beats</span></a></li>
+           <li class="active"><a href="../film/index.html"><i class="fas fa-video"></i> <span>My Films</span></a></li>
+           <li><a href="../tv shows/index.html"><i class="fas fa-tv"></i> <span>TV Shows</span></a></li>
+           <li><a href="../photo dump/index.html"><i class="fas fa-images"></i> <span>Gallery</span></a></li>
+           <li><a href="../bucket/index.html"><i class="fas fa-list-check"></i> <span>Bucket List</span></a></li>
+           <li><a href="../Dream Places/index.html"><i class="fas fa-globe-americas"></i> <span>Dream Places</span></a></li>
+       </ul>
+   </nav>
 
-    </div>
+   <!-- Main Content -->
+   <main class="content">
+       <header class="page-header">
+           <div class="header-content">
+               <h1><i class="fas fa-clapperboard"></i> My Films</h1>
+               <p><i class="fas fa-quote-left"></i> A cinematic collection of wit, drama, and suspense where genius sparks, queen bees rule, and fear lurks in the shadows. <i class="fas fa-quote-right"></i></p>
+           </div>
+           <div class="film-reel-decoration">
+               <div class="reel-hole"></div>
+               <div class="reel-film"></div>
+           </div>
+       </header>
 
-    <div class="container">
-        <h1><i class="fa-solid fa-film sparkle"></i> My FILMS</h1>
-        
-        <!-- Updated Video Section -->
-        <div class="film-clip">
-            <h3><i class="fa-solid fa-tv sparkle"></i> Bridgerton <span>(TV Series, Romance)</span></h3>
-            <p><i class="fa-solid fa-user sparkle"></i> Created by Chris Van Dusen</p>
-            <video controls width="100%" style="border-radius: 15px;">
-                <source src="bridgerton.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
-            <p class="episode-caption"><b>Bridgerton Season 2 - Episode 7</b><br>Edwina left Anthony at the altar, but he later kissed Kate in the same church, where the previous episode concluded.</p>
-        </div>
+       <!-- Film Cards Section -->
+       <section class="films-grid">
+           <!-- Film 1: The Social Network -->
+           <article class="film-card">
+               <div class="film-container">
+                   <div class="film-poster">
+                       <img src="sn.jpeg" alt="The Social Network" class="poster-image">
+                       <div class="rating-badge"><i class="fas fa-star"></i> 8.0/10</div>
+                       <div class="promo-text">Columbia Pictures - October 1, 2010</div>
+                   </div>
+                   <div class="film-content">
+                       <div class="film-header">
+                           <h2>The Social Network</h2>
+                           <div class="film-meta">
+                               <span><i class="fas fa-film"></i> Movie</span>
+                               <span><i class="fas fa-calendar-alt"></i> 2010</span>
+                               <span><i class="fas fa-clock"></i> 2h</span>
+                           </div>
+                       </div>
+                       <blockquote class="film-quote">
+                           "You don’t get to 500 million friends without making a few enemies."
+                           <div class="quote-line"></div>
+                       </blockquote>
+                       <p class="film-description">
+                           <i class="fas fa-info-circle"></i> A gripping drama that explores the rise of Facebook and the legal battles that followed. The film follows Mark Zuckerberg as he navigates lawsuits and friendships while building the most influential social media platform in history.
+                       </p>
+                       <div class="film-details">
+                           <p><i class="fas fa-chair"></i> <strong>Director:</strong> David Fincher</p>
+                           <p><i class="fas fa-star"></i> <strong>Stars:</strong> Jesse Eisenberg, Andrew Garfield, Justin Timberlake</p>
+                           <p><i class="fas fa-calendar-day"></i> <strong>Release Date:</strong> October 1, 2010</p>
+                           <p><i class="fas fa-stopwatch"></i> <strong>Runtime:</strong> 120 min</p>
+                       </div>
+                       <div class="film-genres">
+                           <span class="genre" data-genre="Biographical"><i class="fas fa-user"></i> Biographical</span>
+                           <span class="genre" data-genre="Tech Drama"><i class="fas fa-desktop"></i> Tech Drama</span>
+                           <span class="genre" data-genre="Courtroom"><i class="fas fa-gavel"></i> Courtroom</span>
+                           <span class="genre" data-genre="Intense"><i class="fas fa-bolt"></i> Intense</span>
+                       </div>
+                   </div>
+               </div>
+               <div class="film-highlight">
+                   <div class="highlight-header">
+                       <h3>FILM HIGHLIGHT</h3>
+                   </div>
+                   <video controls>
+                       <source src="scn.mp4" type="video/mp4">
+                       Your browser does not support HTML5 video.
+                   </video>
+                   <div class="video-decor video-decor-left"></div>
+                   <div class="video-decor video-decor-right"></div>
+               </div>
+           </article>
 
-        <div class="film-clip">
-            <h3><i class="fa-solid fa-tv sparkle"></i> Queen Charlotte <span>(TV Series, Romance)</span></h3>
-            <p><i class="fa-solid fa-user sparkle"></i> Created by Shonda Rhimes</p>
-            <video controls width="100%" style="border-radius: 15px;">
-                <source src="cf.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
-            <p class="episode-caption"><b>Queen Charlotte - Episode 6</b><br>In the final episode, "Crown Jewels," George and Charlotte throw a ball to celebrate the birth of their firstborn. SZA's "Nobody Gets Me" plays as they share a dance at the ball.</p>
-        </div>
+           <!-- Film 2: Mean Girls -->
+           <article class="film-card">
+               <div class="film-container">
+                   <div class="film-poster">
+                       <img src="mg1.jpeg" alt="Mean Girls" class="poster-image">
+                       <div class="rating-badge"><i class="fas fa-star"></i> 7.1/10</div>
+                       <div class="promo-text">Paramount Pictures - April 30, 2004</div>
+                   </div>
+                   <div class="film-content">
+                       <div class="film-header">
+                           <h2>Mean Girls</h2>
+                           <div class="film-meta">
+                               <span><i class="fas fa-film"></i> Movie</span>
+                               <span><i class="fas fa-calendar-alt"></i> 2004</span>
+                               <span><i class="fas fa-clock"></i> 1h 37m</span>
+                           </div>
+                       </div>
+                       <blockquote class="film-quote">
+                           "On Wednesdays, we wear pink."
+                           <div class="quote-line"></div>
+                       </blockquote>
+                       <p class="film-description">
+                           <i class="fas fa-info-circle"></i> A hilarious teen comedy that follows Cady Heron as she navigates the high school social hierarchy after moving from Africa to the U.S. She gets caught up with "The Plastics," the school's most popular clique, leading to drama, betrayal, and a lesson in self-identity.
+                       </p>
+                       <div class="film-details">
+                           <p><i class="fas fa-chair"></i> <strong>Director:</strong> Mark Waters</p>
+                           <p><i class="fas fa-star"></i> <strong>Stars:</strong> Lindsay Lohan, Rachel McAdams, Tina Fey</p>
+                           <p><i class="fas fa-calendar-day"></i> <strong>Release Date:</strong> April 30, 2004</p>
+                           <p><i class="fas fa-stopwatch"></i> <strong>Runtime:</strong> 97 min</p>
+                       </div>
+                       <div class="film-genres">
+                           <span class="genre" data-genre="High School"><i class="fas fa-graduation-cap"></i> High School</span>
+                           <span class="genre" data-genre="Comedy"><i class="fas fa-laugh"></i> Comedy</span>
+                           <span class="genre" data-genre="Teen Drama"><i class="fas fa-child"></i> Teen Drama</span>
+                           <span class="genre" data-genre="Iconic"><i class="fas fa-star"></i> Iconic</span>
+                       </div>
+                   </div>
+               </div>
+               <div class="film-highlight">
+                   <div class="highlight-header">
+                       <h3>FILM HIGHLIGHT</h3>
+                   </div>
+                   <video controls>
+                       <source src="mg.mp4" type="video/mp4">
+                       Your browser does not support HTML5 video.
+                   </video>
+                   <div class="video-decor video-decor-left"></div>
+                   <div class="video-decor video-decor-right"></div>
+               </div>
+           </article>
 
-        <div class="film-clip">
-            <h3><i class="fa-solid fa-video sparkle"></i> Mean Girls <span>(Movie, Teen Comedy)</span></h3>
-            <p><i class="fa-solid fa-user sparkle"></i> Created by Mark Waters</p>
-            <video controls width="100%" style="border-radius: 15px;">
-                <source src="mg.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
-            <p class="episode-caption"><b>Mean Girls (2004)</b><br>Cady Heron navigates the complex social rules of high school, learning valuable lessons about authenticity, friendship, and self-empowerment.</p>
-        </div>
+           <!-- Film 3: Fear Street -->
+           <article class="film-card">
+               <div class="film-container">
+                   <div class="film-poster">
+                       <img src="fears.png" alt="Fear Street Trilogy" class="poster-image">
+                       <div class="rating-badge"><i class="fas fa-star"></i> 6.6/10</div>
+                       <div class="promo-text">Netflix - July 2, 2021</div>
+                   </div>
+                   <div class="film-content">
+                       <div class="film-header">
+                           <h2>Fear Street</h2>
+                           <div class="film-meta">
+                               <span><i class="fas fa-film"></i> Movie Trilogy</span>
+                               <span><i class="fas fa-calendar-alt"></i> 2021</span>
+                               <span><i class="fas fa-clock"></i> 1h 47m - 1h 54m</span>
+                           </div>
+                       </div>
+                       <blockquote class="film-quote">
+                           "Face the past. Change the future."
+                           <div class="quote-line"></div>
+                       </blockquote>
+                       <p class="film-description">
+                           <i class="fas fa-info-circle"></i> A thrilling horror trilogy based on R.L. Stine’s novels, spanning different time periods (1994, 1978, and 1666) as a group of teenagers uncover the dark history of their town, Shadyside. Curses, serial killers, and supernatural forces intertwine in this spine-chilling horror saga.
+                       </p>
+                       <div class="film-details">
+                           <p><i class="fas fa-chair"></i> <strong>Director:</strong> Leigh Janiak</p>
+                           <p><i class="fas fa-star"></i> <strong>Stars:</strong> Kiana Madeira, Olivia Scott Welch, Benjamin Flores Jr.</p>
+                           <p><i class="fas fa-calendar-day"></i> <strong>Release Date:</strong> July 2, 9, & 16, 2021</p>
+                           <p><i class="fas fa-stopwatch"></i> <strong>Runtime:</strong> 107 min - 114 min</p>
+                       </div>
+                       <div class="film-genres">
+                           <span class="genre" data-genre="Slasher"><i class="fas fa-skull-crossbones"></i> Slasher</span>
+                           <span class="genre" data-genre="Supernatural"><i class="fas fa-ghost"></i> Supernatural</span>
+                           <span class="genre" data-genre="Horror"><i class="fas fa-skull"></i> Horror</span>
+                           <span class="genre" data-genre="Trilogy"><i class="fas fa-copy"></i> Trilogy</span>
+                       </div>
+                   </div>
+               </div>
+               <div class="film-highlight">
+                   <div class="highlight-header">
+                       <h3>FILM HIGHLIGHT</h3>
+                   </div>
+                   <video controls>
+                       <source src="fstreet.mp4" type="video/mp4">
+                       Your browser does not support HTML5 video.
+                   </video>
+                   <div class="video-decor video-decor-left"></div>
+                   <div class="video-decor video-decor-right"></div>
+               </div>
+           </article>
+       </section>
 
-        <div class="film-clip">
-            <h3><i class="fa-solid fa-video sparkle"></i> Fear Street 1994 <span>(Movie, Horror)</span></h3>
-            <p><i class="fa-solid fa-user sparkle"></i> Directed by Leigh Janiak.</p>
-            <video controls width="100%" style="border-radius: 15px;">
-                <source src="fstreet.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
-            <p class="episode-caption"><b>Fear Street 1994</b><br>Deena Johnson, a determined teen from Shadyside, fights to uncover the truth behind the town's dark curse, determined to save her friends and break the cycle of terror.</p>
-        </div>        
+       <!-- Floating Action Button -->
+       <button class="fab">
+           <i class="fas fa-film"></i>
+       </button>
 
-        <div class="film-clip">
-            <h3><i class="fa-solid fa-clapperboard sparkle"></i> Who's That Girl? <span>(TV Series, RomCom)</span></h3>
-            <p><i class="fa-solid fa-user sparkle"></i> Directed by Wenn V. Deramas.</p>
-            <video controls width="100%" style="border-radius: 15px;">
-                <source src="wtg.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
-            <p class="episode-caption"><b>"Who's That Girl?" (2011)</b><br> a Filipino romantic comedy starring Anne Curtis and Luis Manzano. In one scene, Anne Curtis's character tries to impress others by speaking in Japanese, but the waitress responds, revealing that she actually doesn't know how to speak Japanese. It's a memorable comedic moment from the movie.</p>
-        </div>        
-    </div> 
-
+       <!-- Back to Top Button -->
+       <a href="#top" class="go-top"><i class="fas fa-arrow-up"></i> Back to Top</a>
+   </main>
 </body>
 </html>
