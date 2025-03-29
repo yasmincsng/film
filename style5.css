@@ -123,6 +123,30 @@ body {
   font-style: italic;
   margin: 0 auto;
 }
+/* ===== FILM SECTIONS ===== */
+.films-section {
+  margin-bottom: 3rem;
+  padding: 2rem;
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  border: 2px solid var(--border-color);
+}
+
+.films-section h2 {
+  font-size: 1.8rem;
+  color: var(--primary-dark);
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid var(--primary-light);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.films-section h2 i {
+  color: var(--primary);
+}
 
 /* ===== FILM CARDS ===== */
 .films-grid {
